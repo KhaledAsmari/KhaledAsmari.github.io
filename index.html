@@ -1,0 +1,27 @@
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>حاسبة الخصم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <main class="container" id="container">
+        <h1>حاسبة الخصم</h1>
+        <p id="warning" class="warning hidden">⚠ نسبة الخصم تعدت المسموح بها (34.99%)</p>
+        <div class="inputs">
+            <input id="price" type="number" placeholder="السعر الأصلي">
+            <input id="final" type="number" placeholder="السعر بعد الخصم">
+        </div>
+        <div class="results">
+            <p>مبلغ الخصم: <span id="discountAmount">—</span></p>
+            <p>نسبة الخصم: <span id="discountRate">—</span></p>
+        </div>
+        <button id="clear">مسح</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
