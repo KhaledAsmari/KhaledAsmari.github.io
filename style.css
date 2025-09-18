@@ -25,6 +25,7 @@ body {
     border-radius: 8px;
     border: 1px solid #ddd;
     text-align: center;
+    dirction: ltr; 
 }
 
 .results p {
@@ -60,3 +61,4 @@ button:hover {
     background: #ed5959 !important;
 
 }
+
